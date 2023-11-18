@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="name_swift">Maruti Suzuki Swift</string>
+    <string name="name_tiago">Tata Tiago</string>
+    <string name="name_kwid">Renault Kwid</string>
+    <string name="name_alto">Alto K10</string>
+    <string name="name_city">Honda City</string>
+    <string name="name_verna">Hyundia Verna</string>
+    <string name="name_rapid">Skoda Rapid</string>
+    <string name="name_swift_dzire">Maruti Suzuki Swift Dzire</string>
+    <string name="name_nexon">Tata Nexon</string>
+    <string name="name_xuv500">Mahindra XUV500</string>
+    <string name="name_harrier">Tata Harrier</string>
+    <string name="name_creta">Hyundia Creta</string>
+</resources>

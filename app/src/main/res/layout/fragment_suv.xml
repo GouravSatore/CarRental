@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="-127dp"
+    tools:context=".Suv">
+
+    <!-- Linear layout to hold the list of cars -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Car 1 -->
+        <FrameLayout
+            android:id="@+id/car_nexon"
+            android:clickable="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:layout_margin="10dp"
+            android:background="#A5B180"
+            tools:ignore="InvalidId">
+
+            <!-- Car image -->
+            <ImageView
+                android:id="@+id/car_nexon_pic"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/tata_nexon"/>
+            <!-- Car details overlay -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="180dp"
+                android:padding="16dp"
+                >
+
+                <!-- Car name -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/name_nexon"
+                    android:textColor="#ffffff"
+                    android:textSize="24sp"
+                    android:textStyle="bold"/>
+
+                <!-- Car features -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mileage: 22.4km/L, Seats: 5, Fuel: Diesel"
+                    android:textColor="#ffffff"
+                    android:textSize="16sp"/>
+
+                <!-- Rent price -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@integer/nexon_price"
+                        android:drawableLeft="@drawable/baseline_currency_rupee_24"
+                        android:textColor="#ffffff"
+                        android:textSize="18sp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:textColor="#ffffff"
+                        android:textStyle="bold"
+                        android:text="/hour"
+                        />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </FrameLayout>
+
+        <!-- Car 2 -->
+        <FrameLayout
+            android:id="@+id/car_creta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:layout_margin="10dp"
+            android:background="#A5B180"
+            android:clickable="true"
+            tools:ignore="InvalidId">
+
+            <!-- Car image -->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/creta"/>
+            <!-- Car details overlay -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="180dp"
+                android:gravity="bottom|start"
+                android:padding="16dp">
+
+                <!-- Car name -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/name_creta"
+                    android:textColor="#ffffff"
+                    android:textSize="24sp"
+                    android:textStyle="bold"/>
+
+                <!-- Car features -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mileage: 16.8km/L, Seats: 5, Fuel: Petrol"
+                    android:textColor="#ffffff"
+                    android:textSize="16sp"/>
+
+                <!-- Rent price -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@integer/creta_price"
+                        android:drawableLeft="@drawable/baseline_currency_rupee_24"
+                        android:textColor="#ffffff"
+                        android:textSize="18sp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:textColor="#ffffff"
+                        android:textStyle="bold"
+                        android:text="/hour"
+                        />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </FrameLayout>
+
+        <!-- Car 3 -->
+
+        <FrameLayout
+            android:id="@+id/car_harrier"
+            android:clickable="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:layout_margin="10dp"
+            android:background="#A5B180"
+            tools:ignore="InvalidId">
+
+            <!-- Car image -->
+            <ImageView
+                android:id="@+id/car_harrier_pic"
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                android:src="@drawable/tata_harrier"/>
+
+            <!-- Car details overlay -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="180dp"
+                android:padding="16dp"
+                >
+
+                <!-- Car name -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/name_harrier"
+                    android:textColor="#ffffff"
+                    android:textSize="24sp"
+                    android:textStyle="bold"/>
+
+                <!-- Car features -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mileage: 16.35km/L, Seats: 5, Fuel: Diesel"
+                    android:textColor="#ffffff"
+                    android:textSize="16sp"/>
+
+                <!-- Rent price -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@integer/harrier_price"
+                        android:drawableLeft="@drawable/baseline_currency_rupee_24"
+                        android:textColor="#ffffff"
+                        android:textSize="18sp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:textColor="#ffffff"
+                        android:textStyle="bold"
+                        android:text="/hour"
+                        />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </FrameLayout>
+
+        <!-- car 4 -->
+        <FrameLayout
+            android:id="@+id/car_xuv500"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:clickable="true"
+            android:layout_margin="10dp"
+            android:background="#A5B180"
+            tools:ignore="InvalidId">
+
+            <!-- Car image -->
+            <ImageView
+                android:id="@+id/alto_k10"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:src="@drawable/xuv500"/>
+
+            <!-- Car details overlay -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="180dp"
+                android:padding="16dp"
+                >
+
+                <!-- Car name -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/name_xuv500"
+                    android:textColor="#ffffff"
+                    android:textSize="24sp"
+                    android:textStyle="bold"/>
+
+                <!-- Car features -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mileage: 13.85km/L, Seats: 5, Fuel: Petrol"
+                    android:textColor="#ffffff"
+                    android:textSize="16sp"/>
+
+                <!-- Rent price -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@integer/xuv500_price"
+                        android:drawableLeft="@drawable/baseline_currency_rupee_24"
+                        android:textColor="#ffffff"
+                        android:textSize="18sp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:textColor="#ffffff"
+                        android:textStyle="bold"
+                        android:text="/hour"
+                        />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </FrameLayout>
+        <!-- Add more car items as needed -->
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Booking1"
+    android:orientation="vertical">
+    <ImageView
+        android:id="@+id/green_bg"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@drawable/green_bg"
+        android:layout_above="@id/viewPager"
+        />
+
+
+<com.google.android.material.tabs.TabLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="50dp"
+    android:id="@+id/tablayout"
+    app:tabTextColor="@color/white"
+    app:tabSelectedTextColor="@color/black"
+    app:tabIndicatorColor="@color/black"
+    android:backgroundTint="#40ffffff"
+    >
+
+    <com.google.android.material.tabs.TabItem
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HatchBack"
+        />
+
+    <com.google.android.material.tabs.TabItem
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sedan"/>
+
+    <com.google.android.material.tabs.TabItem
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Suv"/>
+</com.google.android.material.tabs.TabLayout>
+
+   <androidx.viewpager.widget.ViewPager
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/viewPager"
+       android:layout_below="@id/tablayout"/>
+
+    <ImageView
+        android:id="@+id/Profile"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_margin="5dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:clickable="true"
+        app:srcCompat="@drawable/profile"
+        />
+
+
+</RelativeLayout>

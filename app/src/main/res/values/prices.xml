@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="swift_price">95</integer>
+    <integer name="alto_price">75</integer>
+    <integer name="tiago_price">90</integer>
+    <integer name="kwid_price">80</integer>
+    <integer name="swift_dzire_price">180</integer>
+    <integer name="city_price">210</integer>
+    <integer name="verna_price">220</integer>
+    <integer name="rapid_price">195</integer>
+    <integer name="nexon_price">250</integer>
+    <integer name="creta_price">225</integer>
+    <integer name="harrier_price">270</integer>
+    <integer name="xuv500_price">240</integer>
+</resources>

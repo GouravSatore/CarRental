@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "820634098734",
+    "project_id": "otp-verification-909eb",
+    "storage_bucket": "otp-verification-909eb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:820634098734:android:845dd8154e430236dbd3bf",
+        "android_client_info": {
+          "package_name": "com.example.carrentalnew"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "820634098734-2edvrojhr0uem4160u63mc4vmk3glgs8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.carrentalnew",
+            "certificate_hash": "085db8c70a03b7fbe183b24e7c9624995c44e48c"
+          }
+        },
+        {
+          "client_id": "820634098734-ppkhrkdk92n5dvhom3s5l104o0v89i4j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvwAeQhXO6-svxccUY-lCQLDa8DZJ1D2Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "820634098734-ppkhrkdk92n5dvhom3s5l104o0v89i4j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
